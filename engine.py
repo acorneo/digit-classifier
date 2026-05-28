@@ -18,7 +18,7 @@ else:
 
     X_train = X
     Y_train = Y
-    X_train_scaled = X_train / 255.0
+    X_train_scaled = X_train
 
     print("[🕜] Training model.")
     from sklearn.ensemble import RandomForestClassifier
